@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at uart_rx.v(201): always construct contains both blocking and non-blocking assignments File: D:/FPGA_verilog_training_core/ds18b20_tx/rtl/uart_rx.v Line: 201
+Warning (10268): Verilog HDL information at data_ctrl.v(231): always construct contains both blocking and non-blocking assignments File: D:/FPGA_verilog_training_core/ds18b20_tx/rtl/data_ctrl.v Line: 231
+Info (10281): Verilog HDL Declaration information at data_ctrl.v(41): object "ASCIIA" differs only in case from object "ASCIIa" in the same scope File: D:/FPGA_verilog_training_core/ds18b20_tx/rtl/data_ctrl.v Line: 41
+Info (10281): Verilog HDL Declaration information at data_ctrl.v(42): object "ASCIIB" differs only in case from object "ASCIIb" in the same scope File: D:/FPGA_verilog_training_core/ds18b20_tx/rtl/data_ctrl.v Line: 42
+Info (10281): Verilog HDL Declaration information at data_ctrl.v(43): object "ASCIIC" differs only in case from object "ASCIIc" in the same scope File: D:/FPGA_verilog_training_core/ds18b20_tx/rtl/data_ctrl.v Line: 43

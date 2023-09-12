@@ -1,0 +1,231 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/FPGA_verilog_training_core/ds18b20_tx/tb
+vdata_ctrl
+Z1 !s110 1692864945
+!i10b 1
+!s100 BzPbOY5dgZHHO^Q;9CmNX3
+I46C7cg4=aN5fVUe5>UNWa0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1692856512
+8../rtl/data_ctrl.v
+F../rtl/data_ctrl.v
+L0 6
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1692864945.000000
+Z5 !s107 ../rtl/uart_tx.v|../rtl/uart_rx.v|../rtl/top.v|../rtl/seg_driver.v|../rtl/one_wire.v|../rtl/key_debounce.v|../rtl/ds18b20_model.v|../rtl/ds18b20_ctrl.v|../rtl/data_ctrl.v|../rtl/HC595_Driver.v|
+Z6 !s90 -reportprogress|300|../rtl/HC595_Driver.v|../rtl/data_ctrl.v|../rtl/ds18b20_ctrl.v|../rtl/ds18b20_model.v|../rtl/key_debounce.v|../rtl/one_wire.v|../rtl/seg_driver.v|../rtl/top.v|../rtl/uart_rx.v|../rtl/uart_tx.v|
+!i113 1
+Z7 tCvgOpt 0
+vds18b20_ctrl
+R1
+!i10b 1
+!s100 Kg1P8U?GdAgHb01GY_`UL0
+IL^^g^He<ODD<OP0^We<QP3
+R2
+R0
+w1692864880
+8../rtl/ds18b20_ctrl.v
+F../rtl/ds18b20_ctrl.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vds18b20_model
+R1
+!i10b 1
+!s100 JOAe:3Tm_e>3GX6Megojn0
+I[;4TVnzh?9NW^WeBT<5Eb3
+R2
+R0
+w1692782528
+8../rtl/ds18b20_model.v
+F../rtl/ds18b20_model.v
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vHC595_Driver
+R1
+!i10b 1
+!s100 b^jAHeOAgmV3FRj;;7kZ41
+II=W>lVC1hA3jXRKJ3zKiN0
+R2
+R0
+w1684830358
+8../rtl/HC595_Driver.v
+F../rtl/HC595_Driver.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@h@c595_@driver
+vkey_debounce
+R1
+!i10b 1
+!s100 DUmn<McnFekUOO3<nUPGR3
+I<:Gi7><3A>Q:F<=UjJXe:0
+R2
+R0
+w1682651332
+8../rtl/key_debounce.v
+F../rtl/key_debounce.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vone_wire
+R1
+!i10b 1
+!s100 n=1bcNkTeOagBXhfKDAS_1
+Ie5aOzED1k5[ehihVl`1901
+R2
+R0
+w1692856394
+8../rtl/one_wire.v
+F../rtl/one_wire.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vseg_driver
+R1
+!i10b 1
+!s100 34PIz0DVkH]g6EkeoCX2c3
+IBkbMOD^WC@5kXNm9l9F^]1
+R2
+R0
+w1692771522
+8../rtl/seg_driver.v
+F../rtl/seg_driver.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtop
+R1
+!i10b 1
+!s100 lAZzTQ6Sne5dBHE8ToHci2
+INo1gY6V1@X[Oj6l5_B9on0
+R2
+R0
+w1692845392
+8../rtl/top.v
+F../rtl/top.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtop_tb
+R1
+!i10b 1
+!s100 :Ac0ec5AXl]T0F_@NhciO2
+IJ`KcefoP09jYbz424<>z?0
+R2
+R0
+w1692858642
+8top_tb.v
+Ftop_tb.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1692864944.000000
+!s107 top_tb.v|
+!s90 -reportprogress|300|top_tb.v|
+!i113 1
+R7
+vuart_rx
+R1
+!i10b 1
+!s100 Zk0X[F=gmd?c:Q_>7]FVK3
+I5gFEbhRfb<`fZ;I>h[QkB1
+R2
+R0
+w1692844892
+8../rtl/uart_rx.v
+F../rtl/uart_rx.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vuart_tx
+R1
+!i10b 1
+!s100 MS3X1dLWR_1N_1Z9ohG<F0
+I4ESXNC>h1mZkk3>id6M?A0
+R2
+R0
+w1692770226
+8../rtl/uart_tx.v
+F../rtl/uart_tx.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7

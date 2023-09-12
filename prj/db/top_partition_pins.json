@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
+					"name" : "SH_CP",
+					"strict" : false
+				},
+				{
+					"name" : "ST_CP",
+					"strict" : false
+				},
+				{
+					"name" : "DS",
+					"strict" : false
+				},
+				{
+					"name" : "dq",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

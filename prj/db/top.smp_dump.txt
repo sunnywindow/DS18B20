@@ -1,0 +1,32 @@
+
+State Machine - |top|data_ctrl:data_ctrl_inst|uart_tx:uart_tx_inst|cstate
+Name cstate.STOP cstate.SEND cstate.START cstate.IDLE 
+cstate.IDLE 0 0 0 0 
+cstate.START 0 0 1 1 
+cstate.SEND 0 1 0 1 
+cstate.STOP 1 0 0 1 
+
+State Machine - |top|data_ctrl:data_ctrl_inst|uart_rx:uart_rx_inst|cstate
+Name cstate.STOP cstate.RECEIVE cstate.START cstate.IDLE 
+cstate.IDLE 0 0 0 0 
+cstate.START 0 0 1 1 
+cstate.RECEIVE 0 1 0 1 
+cstate.STOP 1 0 0 1 
+
+State Machine - |top|ds18b20_ctrl:ds18b20_ctrl_inst|cstate
+Name cstate.READ_TEMP cstate.READ cstate.WAIT cstate.CONVERT cstate.SET cstate.SKROM cstate.INIT cstate.IDLE 
+cstate.IDLE 0 0 0 0 0 0 0 0 
+cstate.INIT 0 0 0 0 0 0 1 1 
+cstate.SKROM 0 0 0 0 0 1 0 1 
+cstate.SET 0 0 0 0 1 0 0 1 
+cstate.CONVERT 0 0 0 1 0 0 0 1 
+cstate.WAIT 0 0 1 0 0 0 0 1 
+cstate.READ 0 1 0 0 0 0 0 1 
+cstate.READ_TEMP 1 0 0 0 0 0 0 1 
+
+State Machine - |top|ds18b20_ctrl:ds18b20_ctrl_inst|one_wire:one_wire_inst|cmd_r
+Name cmd_r.11 cmd_r.10 cmd_r.01 cmd_r.00 
+cmd_r.00 0 0 0 0 
+cmd_r.01 0 0 1 1 
+cmd_r.10 0 1 0 1 
+cmd_r.11 1 0 0 1 
